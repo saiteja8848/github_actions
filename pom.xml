@@ -7,6 +7,14 @@
   <groupId>com.progress</groupId>
   <artifactId>github_actions</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub saiteja8848 Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/saiteja8848/test</url>
+   </repository>
+</distributionManagement>
 
   <name>github_actions</name>
   <!-- FIXME change it to the project's website -->

@@ -27,10 +27,10 @@
   </profiles>
 
   <servers>
-    <server>
-      <id>github</id>
-      <username>saiteja8848</username>
-      <password>3199f623b22f25d48fa65b54bd06069b01e785aa</password>
-    </server>
-  </servers>
+        <server>
+            <id>github</id>
+            <username>${env.GITHUB_USERNAME}</username>
+            <password>${env.GITHUB_TOKEN}</password>
+        </server>
+    </servers>
 </settings>
